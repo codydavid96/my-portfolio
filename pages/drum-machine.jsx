@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import drumMachineImg from '../public/assets/Projects/drum-machine.png'
+import drumMachineImg from '../public/assets/projects/drum-machine.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 

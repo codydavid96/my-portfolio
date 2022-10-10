@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import pomodoroTimerImg from '../public/assets/Projects/pomodoro-timer.png'
+import pomodoroTimerImg from '../public/assets/projects/pomodoro-timer.png'
 import {RiRadioButtonFill} from 'react-icons/ri'
 import Link from 'next/link'
 
