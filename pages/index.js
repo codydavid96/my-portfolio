@@ -17,15 +17,12 @@ export default function Home() {
         <link rel="icon" href="/assets/Logo" />
       </Head>
 
-      
-        
-          <Main />
-        
-        <Navbar />
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
+      <Main />
+      <Navbar />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
         
             
     </div>
