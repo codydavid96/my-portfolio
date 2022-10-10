@@ -12,7 +12,7 @@ const About = () => {
            <p className='text-[#1f1f1f]'><IoPersonCircleOutline size={300} /></p>
           </div>
           <p className='pt-10'>For the last 8 years, I have been working as a childcare educator while also completing a <span className="text-[#508aae]">Bachelor of Behavioural Science</span>. However, I have always had a strong passion and interest in technology and have spent a lot of time with computers. In April 2022, I began teaching myself programming by working through the freeCodeCamp.org curriculum, starting with <span className="text-[#508aae]">HTML</span> and <span className="text-[#508aae]">CSS</span>, making small projects on CodePen.io.  Since then, I have begun learning <span className="text-[#508aae]">JavaScript</span> and migrated to <span className="text-[#508aae]">VS Code</span>, making some more complex projects while working through GitHub.<br></br><br></br>
-          I have quickly developed a deep interest in coding and spend most of my free time working through challenges or comleting projects. I have even gone and learned the basics of database management with <span className="text-[#508aae]">SQL</span>. Being very ready for a change and motivated to work hard, I am extremely eager to make the jump into a new career.</p>
+          I have quickly developed a deep interest in coding and have spend most of my free time working through challenges or comleting projects. I have even gone and learned the basics of database management with <span className="text-[#508aae]">SQL</span>. Being very ready for a change and motivated to work hard, I am extremely eager to make the jump into a new career.</p>
           
         </div>
       </div>
