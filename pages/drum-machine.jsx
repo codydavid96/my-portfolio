@@ -26,10 +26,10 @@ const drumMachine = () => {
                     <h2>Overview</h2>
                     <p>
                         This project was a part of my freeCodeCamp.org 
-                        curriculum. This project helped me learn about 
+                        curriculum. It helped me learn about 
                         accessing files in my code and a little bit of 
-                        logic. While simple, it was a fun little project
-                        that helped me grasp some basics a little bit
+                        logic. While simple, it was a fun project
+                        that helped me grasp some basics a bit
                         better.
                     </p>
                     <button onClick={() => openInNewTab("https://codydavid96.github.io/freecodecamp-drum-machine/")} className='px-8 py-2 mt-4 mr-8'>Demo</button>

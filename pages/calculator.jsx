@@ -26,9 +26,9 @@ const calculator = () => {
                     <h2>Overview</h2>
                     <p>
                         This project was a part of my freeCodeCamp.org 
-                        curriculum. This project served well to halp me figure 
+                        curriculum. It worked well to help me figure 
                         out how to structure code in a readable and tidy way, 
-                        while also gave me a great challenge in figuring out 
+                        while also giving me a great challenge in figuring out 
                         some logic. This was also a great project to get used 
                         to some CSS and Bootstrap application.
                     </p>
