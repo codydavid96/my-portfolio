@@ -1,8 +1,4 @@
 import React from "react";
-import {AiOutlineMail} from 'react-icons/ai'
-import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
-import {BsFillPersonLinesFill} from 'react-icons/bs'
-import Image from "next/image";
 import Link from "next/Link";
 
 const Main = () => {
