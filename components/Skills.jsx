@@ -6,7 +6,7 @@ const Skills = () => {
     <div className='pt-10 md:h-screen' id='skills'>
       <div className='p-10'>
         <h2 className='pl-4 text-left uppercase tracking-widest text-[#ffed28]'>Skills</h2>
-        <h3 className='pl-4 pb-8 text-left tracking-widest'>// What I can do.</h3>
+        <h3 className='pl-4 pb-8 text-left tracking-widest'>What I can do.</h3>
       </div>
       <div>
 

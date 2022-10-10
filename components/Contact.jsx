@@ -16,7 +16,7 @@ const Contact = () => {
         <div id='contact' className='w-full h-screen'>
             <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
               <h2 className='pl-4 text-left uppercase tracking-widest text-[#ffed28]'>Connect</h2>
-              <h3 className='pl-4 pb-8 text-left tracking-widest'>// Lets have a chat.</h3>
+              <h3 className='pl-4 pb-8 text-left tracking-widest'>Lets have a chat.</h3>
                 <div className='grid lg:grid-cols-5 gap-8'>
                     {/* Left */}
                     <div className='col-span-3 lg:col-span-2 w-full h-full p-4'>

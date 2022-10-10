@@ -6,7 +6,7 @@ const About = () => {
     <div className='pt-10 md:h-screen' id='about'>
       <div className='p-10'>
         <h2 className='pl-4 text-left uppercase tracking-widest text-[#ffed28]'>About</h2>
-        <h3 className='pl-4 pb-8 text-left tracking-widest'>// A quick introduction.</h3>
+        <h3 className='pl-4 pb-8 text-left tracking-widest'>A quick introduction.</h3>
         <div className="text-left md:text-right sm:grid grid-cols-2">
           <div className="w-auto h-auto m-auto shadow-xl shadow-black bg-gradient-to-br from-[#9055ff] to-[#13e2da] rounded-full flex items-center justify-center">
            <p className='text-[#1f1f1f]'><IoPersonCircleOutline size={300} /></p>
