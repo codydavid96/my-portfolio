@@ -4,7 +4,7 @@ import React, {useEffect, useState} from 'react';
 import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import navLogoWhite from '/../public/assets/navlogowhite.png'
+import navLogoWhite from '../public/assets/navlogowhite.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
