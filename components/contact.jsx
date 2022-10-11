@@ -22,11 +22,11 @@ const Contact = () => {
                     <div className='col-span-3 lg:col-span-2 w-full h-full p-4'>
                         <div className='lg:p-4 h-full'>
                             <div>
-                                <div className="p-12 w-auto h-auto m-auto shadow-xl shadow-black bg-gradient-to-br from-[#9055ff] to-[#13e2da] rounded-full flex items-center justify-center"> 
-                                <p className='text-[#1f1f1f]'> <MdOutlineContactless size={300} /> </p>
+                                <div className="w-auto h-auto m-auto shadow-xl shadow-black bg-gradient-to-br from-[#9055ff] to-[#13e2da] rounded-full flex items-center justify-center"> 
+                                <p className='text-[#1f1f1f]'> <MdOutlineContactless size={330} /> </p>
                                 </div>
                             </div>
-                            <div>
+                            <div className='pt-4'>
                                 <h2 className='py-2'>Cody Hardman</h2>
                                 <p>Web Developer</p>
                                 <p className='py-4'>I am available for full-time positions. Contact me and let&apos;s have a chat!</p>

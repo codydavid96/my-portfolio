@@ -35,7 +35,7 @@ const drumMachine = () => {
                     <button onClick={() => openInNewTab("https://codydavid96.github.io/freecodecamp-drum-machine/")} className='px-8 py-2 mt-4 mr-8'>Demo</button>
                     <button onClick={() => openInNewTab("https://github.com/codydavid96/freecodecamp-drum-machine")} className='px-8 py-2 mt-4'>Code</button>
                 </div>
-                <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-900 rounded-xl p-4'>
+                <div className='col-span-4 md:col-span-1 shadow-xl shadow-black rounded-xl p-4'>
                     <div className='p-2'>
                         <p className='text-center front-hold pb-2'>Tools</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
