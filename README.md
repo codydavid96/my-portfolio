@@ -1,6 +1,6 @@
 My portfolio site!
 
-[See it live here](https://my-portfolio-9qos56x95-codydavid96.vercel.app)
+[See it live here](https://my-portfolio-codydavid96.vercel.app/)
 
 
 
