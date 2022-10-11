@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/Link';
+import Link from 'next/link';
 import React, {useEffect, useState} from 'react';
 import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
