@@ -88,18 +88,12 @@ const Navbar = () => {
                         </ul>
                         <div className='pt-10'>
                             <p className='uppercase tracking-widest text-[#ffed28]'>Let&apos;s connect</p>
-                            <div className='flex items-center justify-between my-4 sm:w-[80%]'>
+                            <div className='flex space-x-4 py-4 my-4 sm:w-[80%]'>
                                 <div className='rounded-full shadow-sm shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaLinkedinIn />
                                 </div>
                                 <div className='rounded-full shadow-sm shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaGithub />
-                                </div>
-                                <div className='rounded-full shadow-sm shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <AiOutlineMail />
-                                </div>
-                                <div className='rounded-full shadow-sm shadow-black p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                    <BsFillPersonLinesFill />
                                 </div>
                             </div>
                         </div>
