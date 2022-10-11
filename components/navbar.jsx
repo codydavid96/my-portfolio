@@ -55,7 +55,7 @@ const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Image 
-                                src="/../public/assets/navLogoWhite.png" 
+                                src={navLogoWhite} 
                                 alt="/" 
                                 width="87" 
                                 height="65" 
@@ -64,7 +64,7 @@ const Navbar = () => {
                                <AiOutlineClose /> 
                             </div>
                         </div>
-                        <div className='border-b border-[#508aae] my-4'>
+                        <div className='border-b border-[#ffed28] my-4'>
                             <p className='w-[85%] md:w[90%] py-4'>Let&apos;s get into it.</p>
                         </div>
                     </div>
@@ -87,7 +87,7 @@ const Navbar = () => {
                             </Link>
                         </ul>
                         <div className='pt-10'>
-                            <p className='uppercase tracking-widest text-[#508aae]'>Let&apos;s connect</p>
+                            <p className='uppercase tracking-widest text-[#ffed28]'>Let&apos;s connect</p>
                             <div className='flex items-center justify-between my-4 sm:w-[80%]'>
                                 <div className='rounded-full shadow-sm shadow-gray-900 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                     <FaLinkedinIn />
