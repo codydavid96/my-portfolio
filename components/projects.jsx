@@ -2,9 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import ProjectItem from './projectItem'
-import calculatorImg from '../public/assets/Projects/calculator.png'
-import pomodoroTimerImg from '../public/assets/Projects/pomodoro-timer.png'
-import drumMachineImg from '../public/assets/Projects/drum-machine.png'
+import calculatorImg from '../public/assets/projects/calculator.png'
+import pomodoroTimerImg from '../public/assets/projects/pomodoro-timer.png'
+import drumMachineImg from '../public/assets/projects/drum-machine.png'
 
 const Projects = () => {
     return (
