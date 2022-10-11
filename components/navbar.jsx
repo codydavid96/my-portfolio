@@ -4,6 +4,7 @@ import React, {useEffect, useState} from 'react';
 import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
 import {FaLinkedinIn, FaGithub} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import navLogoWhite from '/../public/assets/navlogowhite.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -17,7 +18,7 @@ const Navbar = () => {
         <div className='fixed top-0 w-full h-20 shadow-lg z-[100] bg-[#1f1f1f]/75 backdrop-filter backdrop-blur-sm'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Image 
-                    src="/../public/assets/navlogowhite.png" 
+                    src={navLogoWhite} 
                     alt="/" 
                     width="87" 
                     height="65" 
