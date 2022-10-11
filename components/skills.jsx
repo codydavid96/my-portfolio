@@ -15,7 +15,7 @@ const Skills = () => {
             <div className='p-6 bg-gradient-to-br from-[#9055ff] to-[#13e2da] text-[#1f1f1f] shadow-xl shadow-black rounded-full hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image src='/../public/assets/skills/HTML.png' 
+                        <Image src='/../public/assets/skills/html.png' 
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -29,7 +29,7 @@ const Skills = () => {
             <div className='p-6 bg-gradient-to-br from-[#9055ff] to-[#13e2da] text-[#1f1f1f] shadow-xl shadow-black rounded-full hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image src='/../public/assets/skills/CSS.png' 
+                        <Image src='/../public/assets/skills/css.png' 
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -43,7 +43,7 @@ const Skills = () => {
             <div className='p-6 bg-gradient-to-br from-[#9055ff] to-[#13e2da] text-[#1f1f1f] shadow-xl shadow-black rounded-full hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image src='/../public/assets/skills/JavaScript.png' 
+                        <Image src='/../public/assets/skills/javascript.png' 
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -57,7 +57,7 @@ const Skills = () => {
             <div className='p-6 bg-gradient-to-br from-[#9055ff] to-[#13e2da] text-[#1f1f1f] shadow-xl shadow-black rounded-full hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image src='/../public/assets/skills/React.png' 
+                        <Image src='/../public/assets/skills/react.png' 
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -71,7 +71,7 @@ const Skills = () => {
             <div className='p-6 bg-gradient-to-br from-[#9055ff] to-[#13e2da] text-[#1f1f1f] shadow-xl shadow-black rounded-full hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image src='/../public/assets/skills/Bootstrap.png' 
+                        <Image src='/../public/assets/skills/bootstrap.png' 
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -85,7 +85,7 @@ const Skills = () => {
             <div className='p-6 bg-gradient-to-br from-[#9055ff] to-[#13e2da] text-[#1f1f1f] shadow-xl shadow-black rounded-full hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image src='/../public/assets/skills/Tailwind CSS.png' 
+                        <Image src='/../public/assets/skills/tailwind css.png' 
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -99,7 +99,7 @@ const Skills = () => {
             <div className='p-6 bg-gradient-to-br from-[#9055ff] to-[#13e2da] text-[#1f1f1f] shadow-xl shadow-black rounded-full hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                     <div className='m-auto'>
-                        <Image src='/../public/assets/skills/GitHub.png' 
+                        <Image src='/../public/assets/skills/github.png' 
                         width='64px' 
                         height='64px' 
                         alt='/' 
