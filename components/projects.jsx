@@ -5,6 +5,7 @@ import ProjectItem from './projectItem'
 import calculatorImg from '../public/assets/projects/calculator.png'
 import pomodoroTimerImg from '../public/assets/projects/pomodoro-timer.png'
 import drumMachineImg from '../public/assets/projects/drum-machine.png'
+import urlShortenerImg from '../public/assets/projects/url-shortener.png'
 
 const Projects = () => {
     return (
@@ -13,6 +14,12 @@ const Projects = () => {
             <h2 className='pl-4 text-left uppercase tracking-widest text-[#ffed28]'>Projects</h2>
             <h3 className='pl-4 pb-8 text-left tracking-widest'>What I&apos;ve made so far.</h3>
                 <div className='grid md:grid-cols-2 gap-8'>
+                <ProjectItem 
+                    title="URL Shortener" 
+                    backgroundImg={urlShortenerImg}
+                    language="TypeScript" 
+                    projectUrl='/url-shortener' 
+                    />
                     <ProjectItem 
                     title="Calculator" 
                     backgroundImg={calculatorImg}
@@ -24,12 +31,6 @@ const Projects = () => {
                     backgroundImg={pomodoroTimerImg} 
                     language="React.JS"
                     projectUrl='/pomodoro-timer' 
-                    />
-                    <ProjectItem 
-                    title="Drum Machine" 
-                    backgroundImg={drumMachineImg}
-                    language="JavaScript" 
-                    projectUrl='drum-machine' 
                     />
                 </div>
             </div>
