@@ -6,6 +6,8 @@ import calculatorImg from '../public/assets/projects/calculator.png'
 import pomodoroTimerImg from '../public/assets/projects/pomodoro-timer.png'
 import drumMachineImg from '../public/assets/projects/drum-machine.png'
 import urlShortenerImg from '../public/assets/projects/url-shortener.png'
+import letsGoGagaImg from '../public/assets/projects/lets-go-gaga.png'
+
 
 const Projects = () => {
     return (
@@ -31,6 +33,12 @@ const Projects = () => {
                     backgroundImg={pomodoroTimerImg} 
                     language="React.JS"
                     projectUrl='/pomodoro-timer' 
+                    />
+                    <ProjectItem 
+                    title="Let's Go Gaga Website" 
+                    backgroundImg={letsGoGagaImg} 
+                    language="React.JS"
+                    projectUrl='/lets-go-gaga' 
                     />
                 </div>
             </div>
