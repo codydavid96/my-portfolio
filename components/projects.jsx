@@ -34,7 +34,7 @@ const Projects = () => {
           <ProjectItem
             title="Pomodoro Timer"
             backgroundImg={pomodoroTimerImg}
-            language="React.JS"
+            language="JavaScript"
             projectUrl="/pomodoro-timer"
           />
           <ProjectItem

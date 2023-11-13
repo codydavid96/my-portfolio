@@ -19,23 +19,29 @@ const Navbar = () => {
     <div className="fixed top-0 w-full h-20 shadow-lg z-[100] bg-[#1f1f1f]/75 backdrop-filter backdrop-blur-sm">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <LinkComponent href="/#main">
-          <Image src={navLogoWhite} alt="/" width="87" height="65" className="hover:cursor-pointer"/>
+          <Image
+            src={navLogoWhite}
+            alt="/"
+            width="87"
+            height="65"
+            className="hover:cursor-pointer"
+          />
         </LinkComponent>
         <div>
           <ul className="hidden md:flex">
             <Link href="/#main">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/#about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-            </Link>
-            <Link href="/#skills">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
-            </Link>
             <Link href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
+            </Link>
+            <Link href="/#skills">
+              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+            </Link>
+            <Link href="/#about">
+              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
             <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
@@ -85,12 +91,12 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <Link href="/#about">
+              <Link href="/#projects">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm hover:border-l"
                 >
-                  About
+                  Projects
                 </li>
               </Link>
               <Link href="/#skills">
@@ -101,12 +107,12 @@ const Navbar = () => {
                   Skills
                 </li>
               </Link>
-              <Link href="/#projects">
+              <Link href="/#about">
                 <li
                   onClick={() => setNav(false)}
                   className="py-4 text-sm hover:border-l"
                 >
-                  Projects
+                  About
                 </li>
               </Link>
               <Link href="/#contact">
