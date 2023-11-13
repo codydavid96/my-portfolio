@@ -16,7 +16,7 @@ const pomodoroTimer = () => {
                 <Image className='absolute z-1' layout='fill' objectFit='cover' src={pomodoroTimerImg} alt='/' />
                 <div className='absolute top-[70%] maxw-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2'>
                     <h2 className='py-2'>Pomodoro Timer (25+5 Clock)</h2>
-                    <h3>React / JavaScript / HTML / CSS</h3>
+                    <h3>JavaScript / HTML / CSS</h3>
                 </div>
             </div>
 
@@ -29,8 +29,7 @@ const pomodoroTimer = () => {
                         curriculum. It is the most difficult project 
                         I have completed so far, involving complicated 
                         logic and a lot of trial and error. It was a 
-                        great exercise to introduce myself to React while
-                        continuing to develop my JavaScript and logic skills.
+                        great exercise to develop my JavaScript and logic skills.
                     </p>
                     <button onClick={() => openInNewTab("https://codydavid96.github.io/25-5clock/")} className='px-8 py-2 mt-4 mr-8'>Demo</button>
                     <button onClick={() => openInNewTab("https://github.com/codydavid96/25-5clock")} className='px-8 py-2 mt-4'>Code</button>
@@ -39,11 +38,6 @@ const pomodoroTimer = () => {
                     <div className='p-2'>
                         <p className='text-center front-hold pb-2'>Tools</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
-                            <p 
-                                className='text-[#13e2da] py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' />
-                                React
-                            </p>
                             <p 
                                 className='text-[#13e2da] py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' />

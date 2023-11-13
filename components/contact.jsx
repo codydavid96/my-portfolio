@@ -23,7 +23,7 @@ const Contact = () => {
                         <div className='lg:p-4 h-full'>
                             <div>
                                 <div className="w-auto h-auto m-auto shadow-xl shadow-black bg-gradient-to-br from-[#9055ff] to-[#13e2da] rounded-full flex items-center justify-center"> 
-                                <p className='text-[#1f1f1f]'> <MdOutlineContactless size={330} /> </p>
+                                <p className='text-[#1f1f1f]'> <MdOutlineContactless size={360} /> </p>
                                 </div>
                             </div>
                             <div className='pt-4'>
