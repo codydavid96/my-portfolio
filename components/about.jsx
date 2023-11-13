@@ -11,7 +11,7 @@ const About = () => {
         <h3 className="pl-4 pb-8 text-left tracking-widest">
           A quick introduction.
         </h3>
-        <div className="text-left md:text-right md:grid grid-cols-2">
+        <div className="text-left md:grid grid-cols-2">
           <div className="w-auto h-auto m-auto shadow-xl shadow-black bg-gradient-to-br from-[#9055ff] to-[#13e2da] rounded-full flex items-center justify-center">
             <p className="text-[#1f1f1f]">
               <IoPersonCircleOutline size={300} />
