@@ -4,9 +4,9 @@ import Link from "next/link";
 import ProjectItem from "./projectItem";
 import calculatorImg from "../public/assets/projects/calculator.png";
 import pomodoroTimerImg from "../public/assets/projects/pomodoro-timer.png";
-import drumMachineImg from "../public/assets/projects/drum-machine.png";
 import urlShortenerImg from "../public/assets/projects/url-shortener.png";
 import letsGoGagaImg from "../public/assets/projects/lets-go-gaga.png";
+import spotifyBeatmatcherImg from "../public/assets/projects/spotify-beatmatcher.png";
 
 const Projects = () => {
   return (
@@ -19,6 +19,14 @@ const Projects = () => {
           What I&apos;ve made so far.
         </h3>
         <div className="grid md:grid-cols-2 gap-8">
+          <div className="lg:col-span-2">
+            <ProjectItem
+              title="Spotify Beatmatcher (WIP)"
+              backgroundImg={spotifyBeatmatcherImg}
+              language="React.JS / C#"
+              projectUrl="/spotify-beatmatcher"
+            />
+          </div>
           <ProjectItem
             title="URL Shortener"
             backgroundImg={urlShortenerImg}
