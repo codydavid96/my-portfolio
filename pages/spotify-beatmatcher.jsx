@@ -41,16 +41,17 @@ const beatmatcher = () => {
           <br></br>
           <p>
             The goal for the application is for a user to be able to make a
-            search for songs based off an initial song and it&apos;s BPM, genre, and
-            key. This is intended to be useful for musicians and DJ&apos;s or people
-            trying to build a playlist with a consistent beat, tone, or vibe as
-            it will return song recommendations that will fit the initial song
-            based off its own data and metrics stored in Spotify&apos;s database.
+            search for songs based off an initial song and it&apos;s BPM, genre,
+            and key. This is intended to be useful for musicians and DJ&apos;s
+            or people trying to build a playlist with a consistent beat, tone,
+            or vibe as it will return song recommendations that will fit the
+            initial song based off its own data and metrics stored in
+            Spotify&apos;s database.
           </p>
           <br></br>
           <p>
-            This is being accomplished through connecting to Spoitfy&apos;s web API
-            and retrieving Json data of searched tracks, which are then
+            This is being accomplished through connecting to Spoitfy&apos;s web
+            API and retrieving Json data of searched tracks, which are then
             displayed for the user. A further hope is to look at logging into
             your Spotify account to be able to add songs to a playlist created
             by the Beatmatcher web app to make a more useable and worthwhile
@@ -58,8 +59,18 @@ const beatmatcher = () => {
           </p>
           <br></br>
           <p>
-            Finally, Spotify&apos;s guidelines for using their brands imagery have
-            been followed. <a className="hover:cursor-pointer hover:underline text-[#13e2da]" onClick={() => openInNewTab('https://developer.spotify.com/documentation/design')}> These guidelines can be found here. </a>
+            Finally, Spotify&apos;s guidelines for using their brands imagery
+            have been followed to stay consistent with branding.
+            <a
+              className="hover:cursor-pointer hover:underline text-[#13e2da]"
+              onClick={() =>
+                openInNewTab(
+                  "https://developer.spotify.com/documentation/design"
+                )
+              }
+            >
+              These guidelines can be found here.
+            </a>
           </p>
 
           <button
