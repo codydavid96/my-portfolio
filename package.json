@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "engines": {
-    "node": "18.x"
+    "node": "18"
   },
   "private": true,
   "scripts": {
@@ -15,7 +15,8 @@
     "next": "12.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.12.0"
+    "react-icons": "^4.12.0",
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.9",

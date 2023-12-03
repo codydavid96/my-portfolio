@@ -4,7 +4,7 @@ import spotifyBeatmatcherHeaderImg from "../public/assets/projects/spotify-beatm
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const calculator = () => {
+const beatmatcher = () => {
   const openInNewTab = (url) => {
     window.open(url, "_blank", "noopener, noreferrer");
   };
@@ -134,4 +134,4 @@ const calculator = () => {
   );
 };
 
-export default calculator;
+export default beatmatcher;
