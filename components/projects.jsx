@@ -19,7 +19,7 @@ const Projects = () => {
           What I&apos;ve made so far.
         </h3>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="lg:col-span-2">
+          <div className="md:col-span-2">
             <ProjectItem
               title="Spotify Beatmatcher (WIP)"
               backgroundImg={spotifyBeatmatcherImg}
